@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .container{
+      display: grid;
+      width: 748px;
+      height: 748px;
+      background-color: black;
+      grid-template-columns:1fr 1fr 1fr 1fr;
+      grid-template-rows: 414px 1fr 1fr 20px;
+      gap: 9px;
+    }
+    .box1{
+      background-color: #E72F24;
+      max-width: 414px;
+    }
+    .box2{
+      background-color:#F0F1EC;
+      grid-column: span 3 ;
+    }
+    .box3{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+    .box4{
+      background-color: #F0F1EC;
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+    .box5{
+      background-color: #004592;
+      height: 130px;
+    }
+    .box6{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+    .box7{
+      background-color: #F0F1EC;
+    }
+    .box8{
+      background-color: #F9D01E;
+    }
+    .box9{
+      background-color: #232629;
+    }
+  </style>
+</head>
+
+<body>
+   <div class="container">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+      <div class="box5"></div>
+      <div class="box6"></div>
+      <div class="box7"></div>
+      <div class="box8"></div>
+      <div class="box9"></div>
+    </div>
+</body>
+
+</html>
